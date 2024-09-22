@@ -1,0 +1,108 @@
+body{
+    height: 100vh;
+    font-family:"Source Sans 3", sans-serif; ;    
+}
+
+.pinkheart-section{
+    position: relative;
+    height: 400px;
+    width: 800px;
+     background-color: rgba(255, 23, 61, 0.651);
+     margin: auto;
+     margin-top: 50px;
+     border-radius: 20px;
+}
+
+.heart-wrapper{
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+  
+    
+}
+
+.heart-wrapper h4{
+    position: relative;
+    left: px;
+}
+
+.aboutpage-section{
+    position: relative;
+    height: 400px;
+    width: 800px;
+    background-color: rgba(12, 94, 94, 0.445);
+    margin: auto;
+    margin-top: 20px;
+}
+
+.aboutpage-section{
+    display: flex;
+    border-radius: 20px;
+    
+}
+
+.about-wrapper {
+    width: 49%;
+    margin-left: 200px;
+    margin-top: 200px;
+    font-size: 20px;
+    
+    
+}
+
+.paragraph-wrapper{
+    width: 49%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-right:20px;
+    font-size: 15px;
+    
+}
+
+.paragraph-wrapper a{
+    text-decoration: none;
+    color: rgb(55, 245, 3);
+}
+
+#drop{
+    margin-top: 50px;
+}
+
+.navbar-section{
+    padding: 10px;
+    float: right;
+    background-color: white;
+}
+
+.nav-wrapper a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(54, 182, 182);
+}
+
+#show{
+    width:80%;
+    color: red;
+    margin-right: 250px;
+}
+
+@media (max-width: 375px) {
+    .pinkheart-section{
+        width: 100%;
+        justify-items: center;
+       
+
+    }
+
+    .aboutpage-section{
+        width: 100%;
+        justify-items: center;
+        
+    }
+}
+
+
+
